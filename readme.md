@@ -36,6 +36,7 @@ python3 --version
 ```bash
 python flow_analyzer.py <lookup_table_file> <log_file> <output_file> [--no-headers]
 ```
+The --no-headers flag is an optional command that indicates a file lacks headers
 
 ### Lookup Table Format
 The lookup table is a CSV file with three columns:
